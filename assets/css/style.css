@@ -53,7 +53,10 @@ a{
 .body-overlay:hover {
     cursor: pointer;
 }
-
+a {
+    color: #fff;
+    
+}
 .body-overlay.opened {
     opacity: 1;
     visibility: visible;
