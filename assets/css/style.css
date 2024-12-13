@@ -1952,7 +1952,7 @@ footer::before{
     content: "";
     width: 100%;
     height: 100%;
-    background-color: #000000;
+    /* background-color: #000000; */
     position: absolute;
     top: 0;
     left: 0;
@@ -2088,7 +2088,7 @@ footer::before{
     content: "";
     background-color: #00E1F7;
     width: 100%;
-    height: 30pc;
+    height: 23pc;
     position: absolute;
     top: 0;
     left: 0;
