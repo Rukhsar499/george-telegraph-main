@@ -1941,11 +1941,12 @@ footer::before{
 
 .about-banner{
     background: url(../img/banner/banner.jpg);
-    background-size: cover;
-    background-position: right;
-    padding: 15vh 1vh 5vh;
+    /* background-size: cover; */
+    background-position: center;
+    padding: 15vh 1vh 15vh;
     position: relative;
     z-index: 1;
+    background-repeat: no-repeat;
 }
 .about-banner::before{
     content: "";
@@ -1961,6 +1962,9 @@ footer::before{
 .about-banner a{
     color:white;
     font-weight: 700;
+}
+#pric{
+    margin-bottom: 0px;
 }
 .nav-pills2{
     background-color: #003962;
