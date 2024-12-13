@@ -2124,7 +2124,7 @@ footer::before{
 }
 .Supplementary{
     padding: 25px 0;
-    background-color: #00E1F7;
+    /* background-color: #00E1F7; */
 }
 .text65xs{
     font-size: 2.84vh;
