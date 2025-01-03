@@ -1940,10 +1940,10 @@ footer::before{
 -----------------*/
 
 .about-banner{
-    background: url(../img/banner/banner.jpg);
+    background: url(../img/banner/banner.png);
     /* background-size: cover; */
     background-position: center;
-    padding: 15vh 1vh 15vh;
+    padding: 17vh 1vh 17vh;
     position: relative;
     z-index: 1;
     background-repeat: no-repeat;
@@ -2321,7 +2321,7 @@ footer::before{
 }
 .cnt-bgs3::before{
     content: '';
-    background: url(../img/other/cnbg.jpg);
+    /* background: url(../img/other/cnbg.jpg); */
     background-size: cover;
     background-position: right;
     width: 100%;
