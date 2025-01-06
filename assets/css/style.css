@@ -88,6 +88,28 @@ a {
 .call{
     border-bottom: 1px solid #00000063;
 }
+.sticky-contact {
+    position: fixed;
+    top: 50%; /* Aligns it vertically at the middle of the viewport */
+    left: 1%; /* Aligns it horizontally at 50% of the viewport width */
+    transform: translateY(-50%); /* Centers it perfectly vertically */
+    background-color: #1b1464; /* Button color */
+    color: #fff; /* Text color */
+    padding: 15px 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    
+    font-size: 20px; /* Font size */
+    text-align: center; /* Centers the text */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Adds shadow for a 3D effect */
+    z-index: 1000; /* Ensures it stays above other elements */
+    writing-mode: vertical-rl; /* Makes text vertical and rotated */
+    
+}
+
+.sticky-contact:hover {
+    background-color: #0056b3; /* Changes color on hover */
+}
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     .header__padding {
         padding-left: 70px;
