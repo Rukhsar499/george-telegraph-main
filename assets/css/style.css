@@ -68,7 +68,26 @@ a {
     padding-left: 245px;
     padding-right: 245px;
 }
-
+.icons {
+    position: fixed;
+    top: 45%;
+    right: 0;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+}
+.call, .whatsapp {
+    background-color: #ffc107;
+    padding: 10px;
+    text-align: center;
+}
+.whatsapp{
+    padding: 17px;
+}
+.call{
+    border-bottom: 1px solid #00000063;
+}
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     .header__padding {
         padding-left: 70px;
