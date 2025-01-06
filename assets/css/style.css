@@ -88,6 +88,9 @@ a {
 .call{
     border-bottom: 1px solid #00000063;
 }
+.sticky-buttons{
+    display: none;
+}
 .sticky-contact {
     position: fixed;
     top: 50%; /* Aligns it vertically at the middle of the viewport */
@@ -108,7 +111,74 @@ a {
 }
 
 .sticky-contact:hover {
-    background-color: #0056b3; /* Changes color on hover */
+    background-color: #ffc107; /* Changes color on hover */
+}
+/* Sticky Footer Container */
+.sticky-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Light background color */
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.2); /* Shadow for elevation */
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around; /* Space between buttons */
+    padding: 10px 0; /* Padding for better spacing */
+}
+.sticky-footer{
+    display: none;
+   }
+/* Show footer only for mobile screens */
+@media screen and (max-width: 768px) {
+    .sticky-footer {
+        display: flex;
+    }
+    .icons, .sticky-contact {
+        display: none;
+    }
+}
+
+/* Footer Button Styles */
+.footer-btn {
+    flex: 1; /* Each button takes equal space */
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 0;
+    /* border-radius: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; /* Space between icon and text */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: Arial, sans-serif;
+}
+
+/* WhatsApp Button */
+.footer-btn.whatsapp {
+    background-color: #ffc107; /* WhatsApp green */
+}
+
+/* Contact Us Button */
+.footer-btn.contact-us {
+    background-color: #1b1464; /* Orange */
+}
+
+/* Phone Button */
+.footer-btn.phone {
+    background-color: #ffc107; /* Blue */
+}
+
+/* Hover Effect */
+.footer-btn:hover {
+    transform: scale(1.05); /* Slightly enlarges on hover */
+}
+
+/* Icon Styles (optional) */
+.footer-btn i {
+    font-size: 16px; /* Icon size */
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     .header__padding {
