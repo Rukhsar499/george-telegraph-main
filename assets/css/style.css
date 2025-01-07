@@ -2382,8 +2382,7 @@ footer::before{
 }
 .centres-first-info{
     display: flex;
-    justify-content: end;
-    line-height: 1.8;
+   line-height: 1.8;
 }
 .centres-title{
     font-size: 25px;
@@ -2395,6 +2394,11 @@ footer::before{
 }
 .cnp_info{
     font-size: 14px;
+}
+.btn-light{
+    background-color: transparent;
+    color: #fff;
+    padding: 5px 20px;
 }
 @media (max-width:767px){
     .centres-title{
