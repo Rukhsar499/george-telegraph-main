@@ -2127,10 +2127,23 @@ footer::before{
     box-shadow: 5px 5px 5px #eee;
 }
 .form-title.formtitle25xp{
-    color: #ffffff;
+    color: #000;
     font-size: 2.95vh;
     font-weight: 600;
     text-align: center;
+}
+.career-form{
+    background-color: aliceblue;
+    padding: 10px 20px;
+    height: 100%;
+}
+.mbs{
+    margin-bottom: 30px;
+}
+.form-control{
+    border: none;
+    border-bottom: 1px solid #0000007a;
+    background-color: transparent;
 }
 .select-field,.input-field{
     width: 100%;
